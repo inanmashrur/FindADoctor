@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Find Doctor</string>
+
+    <string name="loc">CU medical, Jobra, Hathazari</string>
+    <string name="inan_mashrur">Inan Mashrur</string>
+    <string name="about_doctor">About Doctor</string>
+    <string name="about">Doctors, also known as Physicians, are licensed health professionals who maintain and restore human health through the practice of medicine. They examine patients, review their medical history, diagnose illnesses or injuries, administer treatment and counsel patients on their health and well being.</string>
+    <string name="location">Location</string>
+    <string name="book_an_appointment">Book an Appointment</string>
+    <string name="free_of_cost">Free of cost</string>
+    <string name="fee">Fee</string>
+    <string name="_12_00pm_3_00pm">12:00PM-3:00pm</string>
+    <string name="timing">Timing</string>
+    <string name="mbbs_engineer">MBBS, Engineer</string>
+    <string name="add_to_favourite_list">Add to favourite list</string>
+    <string name="mon_fri">Mon-Fri</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_here">Search here...</string>
+</resources>
