@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+        <LinearLayout
+            android:id="@+id/layout_progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:paddingVertical="10dp"
+            >
+
+            <androidx.core.widget.ContentLoadingProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                style="@style/Widget.AppCompat.ProgressBar"
+                android:outlineSpotShadowColor="#fff"
+                android:outlineAmbientShadowColor="@color/mycolor1"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/mycolor1"
+                android:indeterminateTintMode="src_atop"/>
+            <TextView
+                android:id="@+id/TV_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/mycolor1"
+                android:textSize="20dp"
+                android:fontFamily="@font/gabriela"
+                android:text="please wait...." />
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

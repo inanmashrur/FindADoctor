@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".AdminActivity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Admin Page"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:layout_marginVertical="10dp"
+                android:textColor="@color/mycolor1"/>
+
+            <EditText
+                android:id="@+id/ET_AD_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="4dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/box_style"
+                android:hint="Id"
+                />
+
+            <EditText
+                android:id="@+id/ET_AD_docName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="4dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/box_style"
+                android:hint="Doctor Name"
+                />
+
+            <EditText
+                android:id="@+id/ET_AD_speciality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="4dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/box_style"
+                android:hint="Speciality"
+                />
+            <EditText
+                android:id="@+id/ET_AD_fee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="4dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/box_style"
+                android:hint="Fee"
+                />
+            <EditText
+                android:id="@+id/ET_AD_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="4dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/box_style"
+                android:hint="About"
+                />
+            <EditText
+                android:id="@+id/ET_AD_chamber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="4dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/box_style"
+                android:hint="Chamber"
+                />
+            <EditText
+                android:id="@+id/ET_AD_loc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="4dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/box_style"
+                android:hint="Location"
+                />
+
+            <EditText
+                android:id="@+id/ET_AD_conNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="4dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/box_style"
+                android:hint="Contact No"
+                />
+            <EditText
+                android:id="@+id/ET_AD_picURL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="4dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/box_style"
+                android:hint="Pic URL"
+                />
+            <EditText
+                android:id="@+id/ET_AD_schedule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:layout_marginVertical="4dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/box_style"
+                android:hint="Schedule"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/B_AD_upload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Upload to DB"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/box_style"
+                android:backgroundTint="@color/mycolor1"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

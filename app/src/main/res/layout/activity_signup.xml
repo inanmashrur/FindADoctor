@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/TV_CA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="30dp"
+        android:text="Create Account"
+        android:textAlignment="center"
+        android:textColor="@color/mycolor1"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/B_SU_g_back" />
+
+    <EditText
+        android:id="@+id/ET_SU_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_person"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/gabriela"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="@drawable/box_style"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="@color/mycolor1"
+        android:textColorHint="@color/mycolor1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TV_CA" />
+
+    <EditText
+        android:id="@+id/ET_SU_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/gabriela"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="@drawable/box_style"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/mycolor1"
+        android:textColorHint="@color/mycolor1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ET_SU_name" />
+
+    <EditText
+        android:id="@+id/ET_SU_Mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_phone"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/gabriela"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="@drawable/box_style"
+        android:hint="Mobile No"
+        android:inputType="phone"
+        android:textColor="@color/mycolor1"
+        android:textColorHint="@color/mycolor1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ET_SU_email" />
+
+    <EditText
+        android:id="@+id/ET_SU_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_key24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/gabriela"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="@drawable/box_style"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/mycolor1"
+        android:textColorHint="@color/mycolor1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ET_SU_Mobile" />
+
+    <EditText
+        android:id="@+id/ET_SU_C_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_key24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/gabriela"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="@drawable/box_style"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColor="@color/mycolor1"
+        android:textColorHint="@color/mycolor1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ET_SU_pass" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/B_SU2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="@drawable/box_style"
+        android:backgroundTintMode="screen"
+        android:text="SignUP"
+        android:backgroundTint="@color/mycolor12"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ET_SU_C_pass" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/B_SU_g_back"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

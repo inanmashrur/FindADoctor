@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aref_ruqaa</item>
+        <item>@font/biryani_extralight</item>
+        <item>@font/bubblegum_sans</item>
+        <item>@font/bungee</item>
+        <item>@font/gabriela</item>
+        <item>@font/magra</item>
+    </array>
+</resources>
